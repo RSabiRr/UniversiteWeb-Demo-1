@@ -1,0 +1,43 @@
+.navbar {
+  height: 65px;
+}
+
+.navbar .navbar-brand {
+  width: 115px;
+}
+
+.navbar .collapse .navbar-nav .nav-link {
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline-block;
+  font-size: 13px;
+}
+
+.navbar .collapse .navbar-nav .nav-link.active {
+  border-bottom: 2px solid red;
+}
+
+.navbar .collapse.show {
+  display: block;
+  z-index: 2;
+  padding: 30px;
+  background-color: white;
+}
+
+#slider .owl-carousel .item img {
+  max-height: 710px;
+}
+
+#slider .owl-carousel .owl-dots {
+  position: absolute;
+  bottom: 30px;
+  text-align: center;
+  width: 100%;
+  left: 0;
+}
+
+#slider .owl-carousel .owl-dots .owl-dot span {
+  width: 15px;
+  height: 15px;
+}
+/*# sourceMappingURL=style.css.map */
